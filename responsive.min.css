@@ -177,9 +177,6 @@
     #logo {
         float: none
     }
-    li a:hover {
-        background: #ccc
-    }
     .btn-nav-left {
         float: left;
         padding: 0;
@@ -203,7 +200,6 @@
         border-right: 1px solid #444;
         margin-bottom: 20px
     }
-    #responsive-menu-1 a:hover,
     #responsive-menu-1 a:link,
     #responsive-menu-1 a:visited {
         color: #ececec;
@@ -211,10 +207,7 @@
     }
     .menu-style a {
         display: block;
-        padding: 15px
-    }
-    .menu-style a:hover {
-        background: #333
+        padding: 15px;
     }
     .btn-nav-right {
         padding: 6px 16px;
