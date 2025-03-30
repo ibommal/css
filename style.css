@@ -295,10 +295,6 @@ a:visited {
     transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out
 }
 
-a:hover {
-    text-decoration: none
-}
-
 h1 a:link,
 h1 a:visited,
 h2 a:link,
@@ -313,16 +309,6 @@ h6 a:link,
 h6 a:visited {
     text-decoration: none
 }
-
-h1 a:hover,
-h2 a:hover,
-h3 a:hover,
-h4 a:hover,
-h5 a:hover,
-h6 a:hover {
-    text-decoration: none
-}
-
 #main {
     margin-bottom: 20px
 }
@@ -366,7 +352,6 @@ h6 a:hover {
 }
 
 .nav .current_page_item a,
-.nav li a:hover,
 .nav li.first a {
     color: #fff
 }
@@ -396,12 +381,6 @@ h6 a:hover {
     text-transform: none
 }
 
-.nav li ul li a:hover {
-    border-radius: 0;
-    color: #fff;
-    font-weight: 700
-}
-
 .nav li ul li:first-child a {
     padding-top: 15px
 }
@@ -421,30 +400,6 @@ h6 a:hover {
     padding: 0 !important
 }
 
-.nav li.hover,
-.nav li:hover {
-    position: static
-}
-
-.nav li.sfhover ul ul,
-.nav li.sfhover ul ul ul,
-.nav li.sfhover ul ul ul ul,
-.nav li:hover ul ul,
-.nav li:hover ul ul ul,
-.nav li:hover ul ul ul ul {
-    left: -999em
-}
-
-.nav li li li li.sfhover ul,
-.nav li li li li:hover ul,
-.nav li li li.sfhover ul,
-.nav li li li:hover ul,
-.nav li li.sfhover ul,
-.nav li li:hover ul,
-.nav li.sfhover ul,
-.nav li:hover ul {
-    left: auto
-}
 
 .nav .sf-sub-indicator {
     background: url(images/ico-arrow-down.png) no-repeat;
@@ -651,12 +606,6 @@ h6 a:hover {
     border-bottom: 1px solid #ddd;
     color: #999
 }
-
-.slogan p a:hover {
-    border-color: #ccc;
-    text-decoration: none
-}
-
 .lang-selection-ib {
     width: auto;
     margin: 0 auto;
@@ -681,11 +630,6 @@ h6 a:hover {
 .language-select-button {
     background: #272727
 }
-
-.language-select-button:hover {
-    background: #5da93c
-}
-
 .language-select-button-active {
     color: #000;
     background: #f1f1f1;
@@ -793,10 +737,6 @@ html[xmlns] .slides {
     border-radius: 100%
 }
 
-.flex-control-paging li a:hover {
-    background: #88d082
-}
-
 .flex-control-paging li a.flex-active {
     background: #88d082;
     cursor: default
@@ -813,11 +753,6 @@ html[xmlns] .slides {
 .post-nav a:visited {
     color: #999;
     width: 50%
-}
-
-.post-nav a:hover {
-    border-bottom: 1px solid #ccc;
-    color: #333
 }
 
 .next-post-link {
@@ -849,7 +784,7 @@ html[xmlns] .slides {
     text-decoration: none
 }
 
-.hentry .entry-meta a:hover {
+.hentry {
     color: #666
 }
 
@@ -858,7 +793,7 @@ html[xmlns] .slides {
     color: #9da0a4
 }
 
-.single .entry-meta a:hover {
+.single {
     color: #666
 }
 
@@ -877,7 +812,7 @@ html[xmlns] .slides {
     text-decoration: none
 }
 
-.single .entry-meta a:hover {
+.single {
     color: #666
 }
 
@@ -946,10 +881,6 @@ html[xmlns] .slides {
     color: #999
 }
 
-#footer a:hover {
-    color: #666
-}
-
 #footer-columns {
     border-bottom: 1px solid #eee;
     padding: 40px 0 20px
@@ -996,7 +927,7 @@ html[xmlns] .slides {
     margin-left: 6px
 }
 
-#copyright .left a:hover {
+#copyright {
     color: #999
 }
 
@@ -1055,7 +986,7 @@ html[xmlns] .slides {
     height: auto
 }
 
-.entry-content a:hover {
+.entry-content {
     border-bottom: 1px solid #ddd
 }
 
@@ -1282,8 +1213,8 @@ img.alignleft {
     box-shadow: 0 1px 2px rgba(0, 0, 0, .07)
 }
 
-.junkie-pagination .current,
-.junkie-pagination a:hover {
+.junkie-pagination .current
+{
     background: #5da93c;
     color: #fff
 }
@@ -1755,11 +1686,6 @@ input[type=search]::-webkit-search-results-decoration {
     font-weight: 400
 }
 
-.pinglist li a:hover {
-    background: 0 0 !important;
-    color: #202222
-}
-
 #reply-title,
 .comments-title,
 .pings-title {
@@ -1790,11 +1716,6 @@ input[type=search]::-webkit-search-results-decoration {
     color: #9da0a4;
     font-weight: 400 !important;
     text-decoration: none !important
-}
-
-.comment-meta a:hover {
-    border-bottom: 1px dashed #ddd;
-    color: #333
 }
 
 .moderation {
@@ -2039,13 +1960,6 @@ button {
     font-size: 13px;
     font-weight: 400
 }
-
-#submit:hover,
-.btn:hover,
-button:hover {
-    background: #5da93c !important
-}
-
 .post-thumb {
     position: relative;
     background-color: #333;
@@ -2162,26 +2076,19 @@ button:hover {
     display: none
 }
 
-#sidebar .widget a:hover,
-a:hover,
+#sidebar,
 a:link,
 a:visited {
     color: #fff;
 }
 
 .entry-title a:link,
-.entry-title a:hover,
 .entry-title a:visited {
     color: #ccc;
     padding-bottom: 3px;
 }
 
-.entry-title a:hover {
-    color: #919191
-}
-
 .nav li ul li a,
-.nav li ul li a:hover,
 .nav li ul li a:visited,
 .nav li.current_page_item li a {
     background: #393939
