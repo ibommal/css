@@ -182,9 +182,6 @@ a:visited {
     -o-transition: background-color 0.2s ease, border 0.2s ease, color 0.2s ease, opacity 0.2s ease-in-out;
     transition: background-color 0.2s ease, border 0.2s ease, color 0.2s ease, opacity 0.2s ease-in-out;
 }
-a:hover {
-    text-decoration: none;
-}
 h1 a:link,
 h1 a:visited,
 h2 a:link,
@@ -269,15 +266,6 @@ h6 a:visited {
 .nav li ul ul {
     margin: -39px 0 0 170px !important;
     padding: 0 !important;
-}
-.nav li:hover {
-    position: static;
-}
-.nav li li li li:hover ul,
-.nav li li li:hover ul,
-.nav li li:hover ul,
-.nav li:hover ul {
-    left: auto;
 }
 #header {
     width: 100%;
