@@ -879,10 +879,6 @@ html[xmlns] .slides {
     color: #999
 }
 
-#footer a:hover {
-    color: #666
-}
-
 #footer-columns {
     border-bottom: 1px solid #eee;
     padding: 40px 0 20px
@@ -927,10 +923,6 @@ html[xmlns] .slides {
 #copyright .left a:visited {
     color: #bbb;
     margin-left: 6px
-}
-
-#copyright .left a:hover {
-    color: #999
 }
 
 .one-col {
@@ -1713,11 +1705,6 @@ input[type=search]::-webkit-search-results-decoration {
     color: #9da0a4;
     font-weight: 400 !important;
     text-decoration: none !important
-}
-
-.comment-meta a:hover {
-    border-bottom: 1px dashed #ddd;
-    color: #333
 }
 
 .moderation {
